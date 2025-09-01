@@ -83,3 +83,6 @@ class UserInterface:
         print("Гайд по использованию локальной модели находится по ссылке: ")
         print("https://github.com/dvapack/daily_notes_summarizer/readme.md")
         print("Для использования локальной модели необходимо ввести base_url: ")
+        base_url = str(input())
+        print(self.separator)
+        return base_url
